@@ -4,9 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>Competitive Influence Mazimization</title>
-  <!-- Font awesome-->
-  <script src="https://kit.fontawesome.com/d83f7995e9.js" crossorigin="anonymous"></script>
-
   <!--font google-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,27 +29,38 @@
   <section id="title">
 
     <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img alt="" class="vt-logo-image" src="images/vt-cs-logo.jpg" focusable="false" aria-hidden="true"/>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#description">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#applications">Application</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://people.cs.vt.edu/~jicho/tclab.html">tClab</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
 
 
 
     <!-- Title -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6">
-          <img alt="" class="vt-logo-image" src="images/vt-cs-logo.jpg" focusable="false" aria-hidden="true"/>
-        </div>
-      </div>
-    </div>
 
 <div class="container-fluid">
 
-  <div class="row">
-    <div class="col-3">
-      <img src="" alt="">
-    </div>
-
-  </div>
   <div class = "row">
     <div class="col-lg-12">
       <h1>Uncertainty-Aware Deep Reinforcement Learning-based Competitive Influence Maximization Combating False Information.</h1>
@@ -71,9 +79,19 @@
 
 
 <section id="description">
-  <h1>What does this project do?</h1>
-  <p>Competivive Influence Maximization</p>
-
+  <div class="container-fluid">
+    <div class="container-fluid">
+    <h1>Project Description</h1>
+    <br>
+    <p>The online social network has been widely used among the population. It is no surprise that individuals are more likely to get affected by their social contacts while adopting new ideas.
+      This motives parities or companies with comparable opinions and products to identify "opinion leaders" and market via the "word-of-mouth" effect.</p>
+    <p>In this project, we are proposing a framework <u>M</u>ultidimensional <u>U</u>ncertainty-aware <u>D</u>eep <u>R</u>einforcement learning-based
+      competitive <u>I</u>nfluence <u>M</u>aximization (muDRIM) to help combat false information spreading while maximizing the Influence of True information.
+      We employ Deep Reinforcement Learning (DRL) as a decision-making algorithm for multiple parties to compete for their influence in the Competitive Influence Maximization (CIM) problems
+      over a partially observed network. We also adopt users' multidimensional uncertain and subjective opinions to reflect a more realistic online opinion competition.
+    </p>
+  </div>
+  </div>
 </section>
 
   <section id="testimonials">
@@ -82,15 +100,21 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+          <h2>Step 1 True/False information propagators pick influential users</h2>
+          <br>
+          <img src="images/CIM-Step 1.png" alt="muDRIM step 1">
         </div>
 
         <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
+          <h2>Step 2 Influence Propagating</h2>
+          <br>
+          <img src="images/CIM-Step 2.png" alt="muDRIM step 2">
+        </div>
+
+        <div class="carousel-item">
+          <h2>Step 3 Influence propagating process terminates when user opinions stop changing, True information propagator gets better influence</h2>
+          <br>
+          <img src="images/CIM-Step 3.png" alt="muDRIM step 3">
         </div>
 
       </div>
@@ -108,43 +132,40 @@
   </section>
 
 
-  <section id="features">
+  <section id="applications">
+    <div class="container">
+      <h1>Application Fields</h1>
+    </div>
     <div class="row">
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Viral Marketing.</h3>
-        <p>So easy to use, even your dog could do it.</p>
       </div>
 
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Network Security.</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
 
       </div>
 
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Epidemics Analysis.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
       </div>
 
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Infrastructure Planning.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
       </div>
 
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Habitat Conservation.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
       </div>
 
       <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-3x"></i>
+        <i class="icon fas fa-check-circle fa-2x"></i>
         <h3>Wireless Sensor Networks.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
       </div>
 
     </div>
@@ -152,9 +173,8 @@
 
 
   <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <p>© Copyright 2022 Qi Zhang</p>
-    </div>
+      <p>@Copyright 2022 Qi Zhang</p>
+
   </footer>
 
 
